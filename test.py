@@ -1,16 +1,18 @@
-from reddit  import client
+from reddit import client
 from reddit.user import User
 from reddit.reddits import Subreddit
 
-bojohan = client.login('bojohan')
+anton = client.login('420BLAZE_N_FAZE_CLAN')
 
-bojohan.me()
+sweddit = Subreddit("Sweden")
+
+
+anton.me()
 
 
 # python = Subreddit("python")
 #
 # python.hot()
-
 
 
 
