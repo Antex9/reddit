@@ -23,7 +23,6 @@ class Client():
                 self.client_id = getpass.getpass("Your reddit bot client id: ")
                 self.client_secret = getpass.getpass("Your reddit bot client secret: ")
 
-                # save it for next time
                 keyring.set_password(app_name,'client_id',self.client_id)
                 keyring.set_password(app_name,'client_secret',self.client_secret)
 
@@ -35,7 +34,6 @@ class Client():
         if not passwd:
             passwd = getpass.getpass()
 
-            # save it for next time
             keyring.set_password(app_name, reddit_id, passwd)
 
 
