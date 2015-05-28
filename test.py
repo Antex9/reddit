@@ -8,15 +8,3 @@ sweddit = Subreddit("Sweden")
 
 
 anton.me()
-
-
-# python = Subreddit("python")
-#
-# python.hot()
-
-
-
-
-
-
-
